@@ -51,7 +51,7 @@ cd backend-java
 **启动Spring Boot应用**
 mvn spring-boot:run
 
-### 后端python
+### 后端-python
 
 **进入Python后端目录**
 cd backend-python
