@@ -1,0 +1,18 @@
+# Vue / Node
+frontend/node_modules/
+frontend/dist/
+
+# Java
+backend-java/target/
+backend-java/.idea/
+*.class
+
+# Python
+backend-python/__pycache__/
+backend-python/.venv/
+*.pyc
+
+# 通用
+.env
+*.log
+.DS_Store
