@@ -31,43 +31,31 @@ B2B电商管理系统
 
 └── [README.md](http://README.md)
 
-```
-
 ## 快速开始
 
-### 前端
-
-```
-
+# 进入前端目录
 cd frontend
 
+# 安装依赖
 npm install
 
+# 启动开发服务器
 npm run dev
 
-```
-
-### Java 后端
-
-```
-
+# 进入Java后端目录
 cd backend-java
 
+# 启动Spring Boot应用
 mvn spring-boot:run
 
-```
-
-### Python 后端
-
-```
-
+# 进入Python后端目录
 cd backend-python
 
+# 安装依赖包
 pip install -r requirements.txt
 
-python [main.py](http://main.py)
-
-```
+# 启动Python服务
+python main.py
 
 ### 数据库
 
