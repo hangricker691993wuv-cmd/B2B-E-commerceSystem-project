@@ -3,21 +3,18 @@
 ---
 
 ```markdown
-# 项目名称
+项目名称
 
-B2B电商后台管理系统
+- B2B电商管理系统
 
-## 技术栈
-
+技术栈
 - 前端：Vue 3 + Vite + Element Plus + Pinia + Vue Router
 - 后端：Spring Boot（RESTful API）/ FastAPI
 - 数据库：MySQL（关系型数据库）、Redis（缓存数据库）
-
-## 项目结构
-
 ```
 
-项目名称/
+## 项目结构
+项目名称/── B2B-E-commerceSystem-project
 
 ├── frontend/          # Vue 前端
 
@@ -30,61 +27,62 @@ B2B电商后台管理系统
 ├── .gitignore
 
 └── [README.md](http://README.md)
-
 ## 快速开始
 
 ### 前端
-
-**进入前端目录**
+```
+# 进入前端目录
 cd frontend
-
-**安装依赖**
+# 安装依赖
 npm install
-
-**启动开发服务器**
+# 启动开发服务
 npm run dev
+```
 
 ### 后端-Java
-**进入Java后端目录**
+```
+# 进入Java 后端目录
 cd backend-java
-
-**启动Spring Boot应用**
+# 启动服务
 mvn spring-boot:run
+```
 
-### 后端-python
-
-**进入Python后端目录**
+### 后端-Python
+```
+# 进入Python 后端目录
 cd backend-python
-
-**安装依赖包**
+# 安装依赖
 pip install -r requirements.txt
-
-**启动Python服务**
+# 启动服务
 python main.py
+```
 
 ### 数据库
-
+```
 1. 创建数据库：`CREATE DATABASE 数据库名;`
 2. 导入初始化脚本：`mysql -u root -p 数据库名 < database/init.sql`
+```
 
 ## 功能介绍
-
+```
 - ✅ 系统基础：用户注册 / 登录、密码重置、角色权限（管理员 / 客服 / 普通用户）
 - ✅ AI 客服核心：多轮智能对话、提示词模板配置、上下文记忆、意图识别
 - ✅ 前端交互：PC端界面展示、信息持久存储
 - 🚧 提示词工程：模板新增 / 编辑 / 删除、场景化话术调优、变量动态替换
 - 🚧 功能扩展：多 AI 模型兼容（GPT / 文心一言）、提示词自动优化、客服工单联动
 - 🚧 运维监控：对话响应时长统计、AI 调用失败告警、系统性能监控
-补充一句：功能完整度和技术栈覆盖度拉满，应付期末考核应该是没啥问题 ~ ~ ~ 🎉🎉🎉🎉🎉🎉
-
+补充一句：期末应对：功能完整度和技术栈覆盖度拉满，应付期末考核应该是没啥问题 ~ ~ ~ 🎉🎉🎉🎉🎉🎉
+```
 ## 环境要求
-
+```
 - Node.js >= 18
 - Java >= 17
 - Python >= 3.10
 - MySQL >= 8.0
+```
 
 ## 联系方式
-
+```
 - 作者：sleepy-aliurus
+```
 ```
