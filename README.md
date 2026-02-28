@@ -33,6 +33,8 @@ B2B电商管理系统
 
 ## 快速开始
 
+###前端
+
 **进入前端目录**
 cd frontend
 
@@ -42,11 +44,14 @@ npm install
 **启动开发服务器**
 npm run dev
 
+###后端-Java
 **进入Java后端目录**
 cd backend-java
 
 **启动Spring Boot应用**
 mvn spring-boot:run
+
+###后端python
 
 **进入Python后端目录**
 cd backend-python
